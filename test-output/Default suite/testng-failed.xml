@@ -5,9 +5,12 @@
     <classes>
       <class name="com.nopcommercec.qa.test.IndexTest">
         <methods>
-          <include name="test1"/>
+          <include name="clickOnFb"/>
           <include name="openBrowser"/>
+          <include name="clickOnYt"/>
           <include name="beforTest"/>
+          <include name="clickOnX"/>
+          <include name="clickOnNewsFeed"/>
         </methods>
       </class> <!-- com.nopcommercec.qa.test.IndexTest -->
     </classes>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopcommerce by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-Follow us(failed)">
+    <groups>
+      <run>
+        <include name="Follow us"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.nopcommercec.qa.test.IndexTest">
+        <methods>
+          <include name="clickOnFb"/>
+          <include name="clickOnYt"/>
+          <include name="clickOnX"/>
+          <include name="clickOnNewsFeed"/>
+        </methods>
+      </class> <!-- com.nopcommercec.qa.test.IndexTest -->
+    </classes>
+  </test> <!-- GRP-Follow us(failed) -->
+</suite> <!-- Failed suite [nopcommerce by groups] -->

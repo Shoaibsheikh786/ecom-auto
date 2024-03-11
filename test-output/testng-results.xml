@@ -1,24 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-09T18:06:44 IST" name="Default suite" finished-at="2024-03-09T18:06:54 IST" duration-ms="9300">
+  <suite started-at="2024-03-11T17:30:25 IST" name="Default suite" finished-at="2024-03-11T17:30:35 IST" duration-ms="10452">
     <groups>
+      <group name="Follow us">
+        <method signature="IndexTest.clickOnFb()[pri:3, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" name="clickOnFb" class="com.nopcommercec.qa.test.IndexTest"/>
+        <method signature="IndexTest.clickOnYt()[pri:4, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" name="clickOnYt" class="com.nopcommercec.qa.test.IndexTest"/>
+        <method signature="IndexTest.clickOnX()[pri:5, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" name="clickOnX" class="com.nopcommercec.qa.test.IndexTest"/>
+        <method signature="IndexTest.clickOnNewsFeed()[pri:6, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" name="clickOnNewsFeed" class="com.nopcommercec.qa.test.IndexTest"/>
+      </group> <!-- Follow us -->
     </groups>
-    <test started-at="2024-03-09T18:06:44 IST" name="Default test" finished-at="2024-03-09T18:06:54 IST" duration-ms="9300">
+    <test started-at="2024-03-11T17:30:25 IST" name="Default test" finished-at="2024-03-11T17:30:35 IST" duration-ms="10452">
       <class name="com.nopcommercec.qa.test.IndexTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.nopcommercec.qa.test.IndexTest@b73433]" started-at="2024-03-09T18:06:44 IST" name="openBrowser" finished-at="2024-03-09T18:06:52 IST" duration-ms="7866" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" started-at="2024-03-11T17:30:25 IST" name="openBrowser" finished-at="2024-03-11T17:30:31 IST" duration-ms="6059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="beforTest()[pri:0, instance:com.nopcommercec.qa.test.IndexTest@b73433]" started-at="2024-03-09T18:06:52 IST" name="beforTest" finished-at="2024-03-09T18:06:52 IST" depends-on-methods="com.nopcommerce.qa.base.SetUp.openBrowser" duration-ms="50" status="PASS">
+        <test-method is-config="true" signature="beforTest()[pri:0, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" started-at="2024-03-11T17:30:31 IST" name="beforTest" finished-at="2024-03-11T17:30:31 IST" depends-on-methods="com.nopcommerce.qa.base.SetUp.openBrowser" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforTest -->
-        <test-method signature="test1()[pri:0, instance:com.nopcommercec.qa.test.IndexTest@b73433]" started-at="2024-03-09T18:06:52 IST" name="test1" finished-at="2024-03-09T18:06:53 IST" duration-ms="1070" status="PASS">
+        <test-method signature="test1()[pri:1, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" started-at="2024-03-11T17:30:31 IST" name="test1" finished-at="2024-03-11T17:30:32 IST" duration-ms="805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
+        <test-method signature="changeCurrency()[pri:2, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" started-at="2024-03-11T17:30:32 IST" name="changeCurrency" finished-at="2024-03-11T17:30:33 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCurrency -->
+        <test-method signature="clickOnFb()[pri:3, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" started-at="2024-03-11T17:30:33 IST" name="clickOnFb" finished-at="2024-03-11T17:30:33 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFb -->
+        <test-method signature="clickOnYt()[pri:4, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" started-at="2024-03-11T17:30:33 IST" name="clickOnYt" finished-at="2024-03-11T17:30:34 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnYt -->
+        <test-method signature="clickOnX()[pri:5, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" started-at="2024-03-11T17:30:34 IST" name="clickOnX" finished-at="2024-03-11T17:30:35 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnX -->
+        <test-method signature="clickOnNewsFeed()[pri:6, instance:com.nopcommercec.qa.test.IndexTest@27e2287c]" started-at="2024-03-11T17:30:35 IST" name="clickOnNewsFeed" finished-at="2024-03-11T17:30:35 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNewsFeed -->
       </class> <!-- com.nopcommercec.qa.test.IndexTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

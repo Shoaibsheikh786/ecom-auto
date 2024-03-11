@@ -22,11 +22,40 @@ public class IndexTest  extends SetUp{
 	
 	
 	//Write your Test Cases Related to that project 
-	@Test
+	@Test(priority=1)
 	public void test1()
 	{
 		ind.enterUsername();
 		ind.enterPassword();
 		ind.login();
+	}
+	@Test(priority=2)
+	public void changeCurrency()
+	{
+		ind.changeCurrency();
+	}
+	
+	@Test(priority=3,groups="Follow us")
+	public void clickOnFb()
+	{
+		ind.clickonFb();
+	}
+	
+	@Test(priority=4,groups="Follow us")
+	public void clickOnYt()
+	{
+		ind.clickOnYt();
+	}
+	
+	@Test(priority=5,groups="Follow us")
+	public void clickOnX()
+	{
+		ind.clickonX();
+	}
+	
+	@Test(priority=6,groups="Follow us")
+	public void clickOnNewsFeed()
+	{
+		ind.clickonNewFeed();
 	}
 }
